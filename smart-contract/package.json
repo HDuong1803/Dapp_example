@@ -1,0 +1,33 @@
+{
+  "name": "dapp-contract",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile": "hardhat compile",
+    "contract:verify": "node ./scripts/verify.js",
+    "contract:deploy": "yarn compile && hardhat run --network mumbai ./scripts/deploy.ts",
+    "hardhat:node": "hardhat node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.8.2",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "base64-sol": "^1.1.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.2",
+    "ethereum-waffle": "^3.4.4",
+    "hardhat": "^2.9.5",
+    "web3": "^1.7.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

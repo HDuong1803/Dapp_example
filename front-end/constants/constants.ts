@@ -1,0 +1,8 @@
+const NO_AVATAR =
+  "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI4MDQwOTc0L29yaWdpbmFsX2ZmNGYxZjQzZDdiNzJjYzMxZDJlYjViMDgyN2ZmMWFjLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjoxMjAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjkwfSwianBlZyI6eyJxdWFsaXR5Ijo5MH0sInJvdGF0ZSI6bnVsbH19?bc=0";
+
+const NO_IMAGE = "https://fl-1.cdn.flockler.com/embed/no-image.svg";
+
+const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
+
+export { NO_AVATAR, NO_IMAGE, ZERO_ADDRESS };

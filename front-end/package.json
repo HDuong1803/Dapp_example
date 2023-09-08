@@ -1,0 +1,44 @@
+{
+  "name": "dapp-fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p 8080",
+    "lint": "next lint",
+    "format": "yarn prettier --write ."
+  },
+  "dependencies": {
+    "@ajna/pagination": "^1.4.19",
+    "@chakra-ui/card": "^2.1.6",
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@thirdweb-dev/react": "^3.11.8",
+    "@thirdweb-dev/sdk": "^3.10.11",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "easy-peasy": "^5.2.0",
+    "eth-permit": "^0.2.3",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.6",
+    "framer-motion": "^6.3.1",
+    "lodash": "^4.17.21",
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-icons": "^4.7.1",
+    "web3": "^1.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.25",
+    "@types/react": "18.0.6",
+    "@types/react-dom": "18.0.2",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5",
+    "prettier": "2.8.1",
+    "typescript": "^5.0.3"
+  },
+  "homepage": "./"
+}

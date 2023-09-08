@@ -1,0 +1,5 @@
+const useLogger = () => {
+  //...
+};
+
+export { useLogger };
